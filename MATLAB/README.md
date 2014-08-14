@@ -1,4 +1,4 @@
-The MATLAB code here allows for the simulation of the saturating controller and for the validation and plot of the experimental results.
+The MATLAB code here allows for the simulation of the saturating controller and for the validation and plot of the experimental results. Inside the triggering folder there are scripts that mirror these ones, for the various triggering strategies.
 
 run_controller.m:
 
