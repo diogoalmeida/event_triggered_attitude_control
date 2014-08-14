@@ -11,3 +11,8 @@ run_controller_debug.m:
 run_with_torques.m:
 
     Reads a data.mat file obtained from an experiment and runs a simulation of the quad response under the torques that were computed in the experiment. This gives an impression of how close to the model is the actual quad.
+
+process_log.m:
+
+    Processes a log file from the quadcopter and generates a data.mat file with the torques and state of the system during a real experiment.
+    The log file must be dumped to a text file from the terminal. When connecting to the arduino through a terminal, a menu appears that allows for selecting a log file and dump its content to the terminal window. There are programs that capture this and dump the terminal output to a given filename.
