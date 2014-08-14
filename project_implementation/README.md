@@ -34,5 +34,4 @@ In the file saturating_controller.h:
 
 	you can define all the parameters described in the report of this project.
 	Most importantly, the c_T constant has direct impact in the quality of the time responde. Too low and the controller 
-	will be unstable, too high and it will underperform (or not act at all). The ideal case would have a well estimated
-c_T and changes only in the torque_multiplier constant. This would allow more control authority over the quad.
+	will be unstable, too high and it will underperform (or not act at all). The ideal case would have a well estimated c_T and changes only in the torque_multiplier constant. This would allow more control authority over the quad.
